@@ -14,7 +14,7 @@
 
        
         .custom-header {
-            font-size: 50px;
+            font-size: 55px;
             text-shadow: 5px 2px 7px #000000a8;
         }
 
@@ -22,17 +22,26 @@
             color: rgb(6, 83, 6);
             text-shadow: none;
         }
+
+        .custom-sub-text {
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            padding-top: 10px
+        }
       </style>
       
 </head>
-<body>
+<body class="overflow-hidden">
     <section class="d-flex row bg-warning vh-100 row custom-background">
-        <div class="d-flex col">
+        <div class="d-flex col"></div>
 
-        </div>
-        <div class="d-flex row  col-5 pt-5 ">
+        <div class="d-flex row  col-6 p-5 text-end">
             <span class="fw-bold text-light custom-header">Welcome to Champions Week!!!</p>
-            <span class="h4 custom-text">From the <strong>23 - 28 October 2023</strong> your dealership could win a <strong>Sportmans Warehouse</strong> voucher worth</p>
+            <span class="h3 custom-text lh-base">From the <strong>23 - 28 October 2023</strong> your dealership could win a <strong>Sportmans Warehouse</strong> voucher worth</p>
+    
+            <img src="/amount-image.png" width="30%" class="img-fluid " alt="Amount image">
+            <p class="custom-sub-text">Scroll down to find out more.</p>
         </div>
     </section>
 </body>
